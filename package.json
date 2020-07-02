@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "ts-node src/index.ts",
+    "compile": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/kpalatzky/typescript_example#readme",
   "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "inquirer": "^6.5.0"
   }
 }
